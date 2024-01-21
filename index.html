@@ -2,11 +2,23 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  
-  <link href="./jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-<script src="./jquery.bxslider/jquery.bxslider.js"></script>
-
+    <title>Instagram</title>
+  <meta property="og:locale" content="ko_KR" />
+  <meta property="og:url" content="https://shl054.github.io/invite/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://i.namu.wiki/i/DlENEaPlUpTU7_ab04rRGqS4bhvWDb5wFt5-Ip1KYyk4AYJ3qiRqOa3Tv4Vp4x7ti4zk3A5z3KZ0yKUjgAyZXw.svg">
+  <meta property="og:title" content="Instagram">
+  <meta property="og:description" content="여기를 눌러 링크를 확인하세요.">
+  <link rel="stylesheet" type="text/css" href="./css/index.css" />
+  <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="//cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<link rel="stylesheet" href="//cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script>
+  $( document ).ready( function() {
+    $( '.slider' ).bxSlider();
+  } );
+</script>
+  </script>
 </head>
 <body>
   <div class="wrap">
@@ -14,7 +26,7 @@
       <ul>
         <li class="pro_pic">
           <div>
-            
+            <img src="https://github.com/shl054/wedding/blob/main/img/profile.jpg?raw=true" alt="">
           </div>
         </li>
         <li class="pro_desc">
@@ -23,15 +35,9 @@
         </li>
       </ul>
     </div>
-    <div class="media">
-      
-      <ul class="bxslider">
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-        </ul>
-      
-    </div>
+    <div class="slider">
+      <div><img src="https://github.com/shl054/wedding/blob/main/img/post.jpg?raw=true" alt=""></div>        
+      </div>
     <div class="desc">
       <ul>
         <li class="desc_pro">Sungho❤️Daye</li>
@@ -54,19 +60,39 @@
   </li>
       </ul>
     </div>
+<hr>
+<div class="profile">
+      <ul>
+        <li class="pro_pic">
+          <div>
+            <img src="https://github.com/shl054/wedding/blob/main/img/profile.jpg?raw=true" alt="">
+          </div>
+        </li>
+        <li class="pro_desc">
+          <dt>Sungho❤️Daye</dt>
+          <dd>양평군</dd>
+        </li>
+      </ul>
+    </div>
+    <div class="slider">
+      <div><img src="https://shl054.github.io/wedding/img/01.jpg" alt=""></div>
+      <div><img src="https://shl054.github.io/wedding/img/03.jpg" alt=""></div>
+      <div><img src="https://shl054.github.io/wedding/img/04.jpg" alt=""></div>
+      <div><img src="https://shl054.github.io/wedding/img/05.jpg" alt=""></div>
+      <div><img src="https://shl054.github.io/wedding/img/06.jpg" alt=""></div>
+      <div><img src="https://shl054.github.io/wedding/img/07.jpg" alt=""></div>
+      </div>
+    <div class="desc">
+      <ul>
+        <li class="desc_pro">Sungho❤️Daye</li>
+        <li class="desc_summary">Wedding Photo</li>
+        <li class="desc_detail">
+  🤵이성호 👰‍정다예</br></br>
+  </li>
+      </ul>
+    </div>
   </div>
 
-<script type="text/javascript">
-	$(document).ready(function(){
-  $('.bxslider').bxSlider({
-    auto: true,
-    speed: 500,
-		pause: 4000,
-		mode:'fade',
-		autoControls: true,
-		pager:true,
-	});
-});
-</script>
+
 </body>
 </html>
