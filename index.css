@@ -1,0 +1,69 @@
+@charset "UTF-8";
+html, body, div, ul, li, dt, dd{
+  padding:0;
+  margin:0;
+} ol, ul, li{
+  list-style:none;
+}.wrap{
+  max-width:470px;
+  margin:0 auto;
+} .profile ul{
+  overflow:hidden;
+  padding:8px 0;
+  width:100%;
+} .profile li{
+  height:42px;
+} .pro_pic{
+  float:left;
+  width:42px;
+  position: relative;
+} .pro_pic img{
+  width:100%;
+}
+.profile div{
+  width:32px;
+  height:32px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius:50%;
+  overflow:hidden;
+  border:1px solid silver;
+}
+.pro_desc{
+  max-width:427px;
+  float:left;
+  overflow:hidden;
+  margin-left:10px;
+  margin-top:2px;
+} .pro_desc dt{
+  width:100%;
+  font-size:14px;
+  font-weight:bold;
+} .pro_desc dd{
+  width:100%;
+  font-size:12px;
+} .desc{
+  margin-top:-25px;
+} .desc ul{
+  overflow:hidden;
+  width:100%;
+  font-size:14px;
+  padding-left:12px;
+} .desc_pro{
+  float:left;
+  font-weight:bold;
+  padding:1px 0;
+} .desc_summary{
+  float:left;
+  padding-left:10px;
+} .desc_detail{
+  width:100%;
+  float:left;
+  padding:4px 0;
+} hr {
+  border : 0px;
+  border-top: 1px solid silver;
+  margin:10px 0;
+}
