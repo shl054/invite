@@ -5,7 +5,7 @@ html, body, div, ul, li, dt, dd{
 } ol, ul, li{
   list-style:none;
 }.wrap{
-  max-width:470px;
+  width:470px;
   margin:0 auto;
 } .profile ul{
   overflow:hidden;
