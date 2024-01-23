@@ -57,7 +57,7 @@ html, body, div, ul, li, dt, dd{
   width:100%;
 } .desc_pro{
   padding:1px 0;
-} .desc_pro{
+} .desc_pro span{
   font-weight:bold;
 } .desc_detail{
   padding:4px 0;
