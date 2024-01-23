@@ -52,16 +52,14 @@ html, body, div, ul, li, dt, dd{
   width:100%;
   font-size:14px;
   padding-left:12px;
-} .desc_pro{
+} .desc li{
   float:left;
-  font-weight:bold;
-  padding:1px 0;
-} .desc_summary{
-  float:left;
-  padding-left:10px;
-} .desc_detail{
   width:100%;
-  float:left;
+} .desc_pro{
+  padding:1px 0;
+} .desc_pro{
+  font-weight:bold;
+} .desc_detail{
   padding:4px 0;
 } hr {
   border : 0px;
