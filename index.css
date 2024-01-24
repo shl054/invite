@@ -10,7 +10,7 @@ html, body, div, ul, li, dt, dd{
   margin:0 auto;
 } .profile ul{
   overflow:hidden;
-  padding:8px 0;
+  padding:4px 0;
   width:100%;
 } .profile li{
   height:42px;
