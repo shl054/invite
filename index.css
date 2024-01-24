@@ -47,6 +47,7 @@ html, body, div, ul, li, dt, dd{
   font-size:12px;
 } .desc{
   margin-top:-25px;
+  padding-left:4px;
 } .desc ul{
   overflow:hidden;
   width:100%;
