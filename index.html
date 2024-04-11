@@ -3,28 +3,28 @@
 <head>
   <meta charset="UTF-8">
     <title>Instagram</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta property="og:locale" content="ko_KR">
+  <meta property="og:locale" content="ko_KR" />
   <meta property="og:url" content="https://shl054.github.io/invite/">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://www.computerhope.com/jargon/i/instagram.png">
-  <link rel="icon" href="https://www.computerhope.com/jargon/i/instagram.png"/>
-  <link rel="apple-touch-icon" href="https://www.computerhope.com/jargon/i/instagram.png"/>
   <meta property="og:title" content="Instagram">
   <meta property="og:description" content="여기를 눌러 링크를 확인하세요.">
   <link rel="stylesheet" type="text/css" href="index.css" />
   <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
-  <script src="//cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<script src="//cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<link rel="stylesheet" href="//cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
     <script>
   $( document ).ready( function() {
     $( '.slider' ).bxSlider();
-  } );
+  });   
 </script>
   </script>
 </head>
 <body>
   <div class="wrap">
+    <div id="path" class="content">
     <div class="profile">
       <ul>
         <li class="pro_pic">
@@ -34,24 +34,27 @@
         </li>
         <li class="pro_desc">
           <dt>Sungho❤️Daye</dt>
-          <dd>PJ Hotel • Hestia</dd>
+          <dd><a href="#polygon" rel="modal:open">PJ Hotel • Hestia</a></dd>
         </li>
       </ul>
     </div>
-    <div class="slider" oncontextmenu='return false'>
+    <div class="slider">
       <div><img src="https://github.com/shl054/wedding/blob/main/img/post.jpg?raw=true" alt=""></div>        
       </div>
     <div class="desc">
       <ul>
         <li class="desc_pro"><span>Sungho❤️Daye</span> 저희 결혼합니다~</li>
         <li class="desc_detail">
-  <b>성</b>숙해진 서로를 바라보며</br>
-    <b>호</b>수같이 넓고 깊음을 느끼게 되었습니다</br>
-  <b>다</b>가오는 모든 나날들을 함께하고 싶은 그대와</br>
-  <b>예</b>쁘고 빛나는 미래를 함께 그려나가려 합니다</br>
-  </br>
-      ✔️ 일시 : 2024년 8월 31일(토) 12:30
-  </br>✔️ 장소 : PJ호텔 헤스티아홀 4층
+          <b>성</b>숙해진 서로를 바라보며</br>
+      <b>호</b>수같이 넓고 깊음을 느끼게 되었습니다</br>
+      <b>다</b>가오는 모든 나날들을 함께하고 싶은 그대와</br>
+    <b>예</b>쁘고 빛나는 미래를 함께 그려나가려 합니다</br></br>
+정열의 달 8월, <b>성</b>혼하기로 약조하였습니다</br>
+여러분의 환<b>호</b>와 함께 31일에</br>
+서로의 미래를 <b>다</b>짐하기로 하고자 합니다</br>
+성호와 다<b>예</b>의 결혼식에</br>
+여러분을 초대합니다</br></br>✔️ <a href="#calendar" rel="modal:open">일시 : 2024년 8월 31일(토) 12:30</a>
+</br>✔️ <a href="#polygon" rel="modal:open">장소 : PJ호텔 헤스티아홀 4층</a>
       </br>
   </br>🤵신랑 이성호 👰‍신부 정다예 드림</br>
   </li>
@@ -62,7 +65,7 @@
       <ul>
         <li class="pro_pic">
           <div>
-            <img src="https://github.com/shl054/wedding/blob/main/img/profile.jpg?raw=true" alt="">
+            <img src="https://github.com/shl054/wedding/blob/main/img/profile.jpg?raw=true" alt="main pic">
           </div>
         </li>
         <li class="pro_desc">
@@ -71,24 +74,78 @@
         </li>
       </ul>
     </div>
-    <div class="slider" oncontextmenu='return false'>
-      <div><img src="https://shl054.github.io/wedding/img/01.jpg" alt=""></div>
-      <div><img src="https://shl054.github.io/wedding/img/03.jpg" alt=""></div>
-      <div><img src="https://shl054.github.io/wedding/img/04.jpg" alt=""></div>
-      <div><img src="https://shl054.github.io/wedding/img/05.jpg" alt=""></div>
-      <div><img src="https://shl054.github.io/wedding/img/06.jpg" alt=""></div>
-      <div><img src="https://shl054.github.io/wedding/img/07.jpg" alt=""></div>
+    <div class="slider">
+      <div><img src="https://shl054.github.io/wedding/img/01.jpg" alt="pre pic1"></div>
+      <div><img src="https://shl054.github.io/wedding/img/03.jpg" alt="pre pic2"></div>
+      <div><img src="https://shl054.github.io/wedding/img/04.jpg" alt="pre pic3"></div>
+      <div><img src="https://shl054.github.io/wedding/img/05.jpg" alt="pre pic4"></div>
+      <div><img src="https://shl054.github.io/wedding/img/06.jpg" alt="pre pic5"></div>
+      <div><img src="https://shl054.github.io/wedding/img/07.jpg" alt="pre pic6"></div>
       </div>
     <div class="desc">
       <ul>
         <li class="desc_pro"><span>Sungho❤️Daye</span> Pre-self Wedding Photo</li>
         <li class="desc_detail">
-  🤵이성호 <a href="https://www.instagram.com/sungho54">@sungho54</a></br> 👰‍정다예 <a href="https://www.instagram.com/_jeongdaye">@_jeongdaye</a></br>
+  🤵이성호 <a href="https://www.instagram.com/sungho54" target='_blank'>@sungho54</a></br> 👰‍정다예 <a href="https://www.instagram.com/_jeongdaye" target='_blank'>@_jeongdaye</a></br>
   </li>
       </ul>
     </div>
   </div>
-
-
+  <div class="popup">
+    <div id="polygon" class="modal">
+      <img src="https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmbn5C6SxDUctSJ2qwVFLK2dAfKsZGBDLMkbRiZXWzjGgP/%EC%B2%AD%EC%B2%A9%EC%9E%A5%20%EC%95%BD%EB%8F%84.png" alt="">
+    </div>
+    <div id="calendar" class="modal">
+      &nbsp;<br><p1>8</p1><br>&nbsp;
+      <ul>
+        <li><span class=cal_sun>일</span></li>
+        <li><span>월</span></li>
+        <li><span>화</span></li>
+        <li><span>수</span></li>
+        <li><span>목</span></li>
+        <li><span>금</span></li>
+        <li><span class="cal_sat">토</span></li>
+        <li><span class="last_cal">28</span></li>
+        <li><span class="last_cal">29</span></li>
+        <li><span class="last_cal">30</span></li>
+        <li><span class="last_cal">31</span></li>
+        <li><span>1</span></li>
+        <li><span>2</span></li>
+        <li><span>3</span></li>
+        <li><span>4</span></li>
+        <li><span>5</span></li>
+        <li><span>6</span></li>
+        <li><span>7</span></li>
+        <li><span>8</span></li>
+        <li><span>9</span></li>
+        <li><span>10</span></li>
+        <li><span>11</span></li>
+        <li><span>12</span></li>
+        <li><span>13</span></li>
+        <li><span>14</span></li>
+        <li><span>15</span></li>
+        <li><span>16</span></li>
+        <li><span>17</span></li>
+        <li><span>18</span></li>
+        <li><span>19</span></li>
+        <li><span>20</span></li>
+        <li><span>21</span></li>
+        <li><span>22</span></li>
+        <li><span>23</span></li>
+        <li><span>24</span></li>
+        <li><span>25</span></li>
+        <li><span>26</span></li>
+        <li><span>27</span></li>
+        <li><span>28</span></li>
+        <li><span>29</span></li>
+        <li><span>30</span></li>
+        <li><div class="cal_date"><span>31</span></div></li>
+      </ul>
+      <p2>2024년 8월 31일(토) 12:30</p2>
+    </div>
+    
+  </div>
+      
+</div>
 </body>
 </html>
